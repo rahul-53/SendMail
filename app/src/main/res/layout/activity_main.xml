@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_marginTop="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/teEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To: Email address"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle"
+        />
+    <EditText
+        android:id="@+id/teCC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="cc: Email address"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle"
+        />
+    <EditText
+        android:id="@+id/teMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        android:background="@drawable/rectangle"
+        />
+    <Button
+        android:id="@+id/tvBtnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
